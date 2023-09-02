@@ -15,7 +15,6 @@ text-align: center;
     margin: 0 auto;
     overflow: hidden;
     padding: 0 134px 0 135px;
-    border: 2px solid black;
 }
 
 .container >p{
@@ -34,8 +33,8 @@ header {
     flex-direction: column;
     flex: 1 1 auto;
     background: url(./img/Header-llustration-desktop@2x.png) no-repeat; 
-    background-position: 50% -10%;
-    background-size: auto;
+    background-position: 50% -5%;
+    background-size: 70% auto;
         }
 
 
@@ -61,10 +60,14 @@ header a {
 }
 
 /* Show Case */
-#showcase 
+
+#showcase {
+    margin-top: 0;
+    height: 620px;
+} 
 
 .showcase-info {
-    margin-top: 100px;
+    margin-top: 0;
 } 
 
 
@@ -77,11 +80,6 @@ header a {
     color: #172B4D;
 }
 
-.socials {
-    display: flex;
-    gap: 10px;
-    margin: 0 auto;
-}
 
 #showcase p {
     display: flex;
@@ -94,6 +92,15 @@ header a {
     font-size: 20px;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+
+/* Social media icons */
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 
@@ -218,8 +225,85 @@ padding: 6px;
     text-align: center;
 }
 
+/* User Forms */
+
+#user-form {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+form {
+    display: flex;
+    gap: 20px;
+}
+
+.form-heading {
+    font-size: 30px;
+    color: #172B4D;
+    width: 33.33%;
+    text-align: left;
+}
+
+.col-2-3 {
+    width: 66.66%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form, input, textarea {
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-name,
+.last-name {
+    display: flex;
+    width: 44%;
+       
+}
+
+.first-name,
+.last-name
+.email,
+.message {
+    color: #6B778C;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    border-color: #D0D9D4;
+}
+
+.message {
+    height: 90px;
+}
+
+.get-in-touch-btn {
+    width: 129px;
+    font-size: 17px;
+    background-color: #36B37F;
+    border-radius: 8px;
+    padding: 12px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
 /* Footer */
 
+footer {
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
 .footer-section {
     display: flex;
     flex-direction: row;
@@ -227,4 +311,3 @@ padding: 6px;
     gap: 20px;
     margin: 0 auto;
 }
-
