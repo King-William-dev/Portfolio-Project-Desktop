@@ -86,3 +86,74 @@ header a {
     margin-bottom: 10px;
 }
 
+
+/* My recent work */
+
+.recent-work {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D0D9D4;
+    background-color: #EBF0EE;
+    padding-top: 200px;
+    border-radius: 8px;
+    width: auto;
+    margin-top: 10PX;
+}
+
+.box >h3 {
+    color: #172B4D;
+    font-size: 24px;
+    text-align: center;
+}
+
+.technologies >ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.technologies div li{
+    color: #172B4D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+    line-height: 16px;
+    background-color: #EBF0EE;
+    border-radius: 4px;
+    padding: 8px 6px;
+}
+
+.text {
+    background-color:#FFFFFF;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.text >button {
+background-color: #36B37F;
+color: #FFFFFF;
+border: none;
+border-radius: 4px;
+padding: 6px;
+}
+ 
+
+/* About me */
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card > ul {
+    list-style: none;
+}
