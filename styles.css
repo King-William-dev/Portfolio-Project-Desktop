@@ -189,7 +189,7 @@ padding: 6px;
     list-style: none;
 }
 
-#about-me .container >button {
+#about-me .container div button {
     width: 129px;
     margin: 0 auto;
     background-color: #36B37F;
@@ -310,4 +310,13 @@ footer {
     justify-content: center;
     gap: 20px;
     margin: 0 auto;
+}
+
+/* BUTTONS */
+.btn {
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #008552;
 }
