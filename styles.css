@@ -315,8 +315,19 @@ footer {
 /* BUTTONS */
 .btn {
     cursor: pointer;
+    
 }
 
 .button:hover {
     background-color: #008552;
+}
+
+.btn-anim {
+    box-shadow: 0 5px 0 #172B4D;
+    transition: all .1sec linear;
+}
+
+.btn-anim:active{
+    box-shadow: 0 2px 0 #008552;
+    transform: translateY(3px);
 }
